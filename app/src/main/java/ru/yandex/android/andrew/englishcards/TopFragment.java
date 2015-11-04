@@ -25,11 +25,11 @@ public class TopFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_bottom, container, false);
-        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
+        View view = inflater.inflate(R.layout.fragment_top, container, false);
+        /*if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
             cardView = (CardView)view.findViewById(R.id.card_view);
             cardView.setElevation(50);
-        }
+        }*/
         return view;
     }
 
