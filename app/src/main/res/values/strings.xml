@@ -3,4 +3,7 @@
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_bootom_name">HINT</string>
+    <string name="word_stub">Word stuB</string>
+    <string name="freq_label">freq. </string>
 </resources>

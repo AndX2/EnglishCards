@@ -24,7 +24,7 @@
         </service>
 
         <receiver
-            android:name=".OnLoadReceiver"
+            android:name=".model.OnLoadReceiver"
             android:enabled="true"
             android:exported="true" >
             <intent-filter >

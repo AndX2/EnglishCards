@@ -36,8 +36,6 @@ public class DBHelper extends SQLiteOpenHelper {
         }catch (IOException e){
             throw new Error("Error IO", e);
         }
-
-
     }
 
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion){

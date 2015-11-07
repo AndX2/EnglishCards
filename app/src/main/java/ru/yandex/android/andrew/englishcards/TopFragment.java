@@ -16,11 +16,9 @@ import android.widget.TextView;
 public class TopFragment extends Fragment {
     CardView cardView;
 
-
     public TopFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

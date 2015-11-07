@@ -1,10 +1,11 @@
-package ru.yandex.android.andrew.englishcards;
+package ru.yandex.android.andrew.englishcards.model;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
+import ru.yandex.android.andrew.englishcards.Constants;
 import ru.yandex.android.andrew.englishcards.model.BackgroundService;
 
 /**

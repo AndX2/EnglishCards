@@ -14,6 +14,7 @@ import java.util.logging.Handler;
 import java.util.logging.LogRecord;
 
 import ru.yandex.android.andrew.englishcards.Constants;
+import ru.yandex.android.andrew.englishcards.MainActivity;
 import ru.yandex.android.andrew.englishcards.model.DBHelper;
 
 /**
@@ -45,6 +46,8 @@ public class BackgroundService extends Service{
             initFirstLaunch();
         }
 
+
+
     }
 
     private void initFirstLaunch(){
@@ -52,8 +55,6 @@ public class BackgroundService extends Service{
         // TODO: enable it for off init second and more start
         //editor.putBoolean(Constants.IS_FIRST_LAUNCH, true);
         editor.apply();
-        AssetManager assetManager = getAssets();
-
 
     }
 
